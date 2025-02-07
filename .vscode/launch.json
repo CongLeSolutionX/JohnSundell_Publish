@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:JohnSundell_Publish}",
+            "name": "Debug publish-cli",
+            "program": "${workspaceFolder:JohnSundell_Publish}/.build/debug/publish-cli",
+            "preLaunchTask": "swift: Build Debug publish-cli"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:JohnSundell_Publish}",
+            "name": "Release publish-cli",
+            "program": "${workspaceFolder:JohnSundell_Publish}/.build/release/publish-cli",
+            "preLaunchTask": "swift: Build Release publish-cli"
+        }
+    ]
+}
